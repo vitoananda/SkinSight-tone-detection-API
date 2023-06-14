@@ -123,7 +123,7 @@ def upload_skin_picture(uid):
             description = "Skintone ini sangat cerah dengan warna kulit yang sangat terang. Biasanya memiliki nuansa kuning atau merah muda yang sangat pucat."
             recommendation = "Untuk skintone sangat terang ini, pilihlah foundation dengan nuansa kuning lembut atau merah muda yang pucat. Lipstik dengan warna nude, peach muda, atau merah muda pucat akan memberikan tampilan yang segar."
         elif predicted_class == "Monk 2":
-            description = "kintone ini juga tergolong terang, tetapi sedikit lebih gelap dibandingkan Monk 1. Warna kulitnya mungkin memiliki sedikit lebih banyak pigmen kuning atau merah muda."
+            description = "Skintone ini juga tergolong terang, tetapi sedikit lebih gelap dibandingkan Monk 1. Warna kulitnya mungkin memiliki sedikit lebih banyak pigmen kuning atau merah muda."
             recommendation = "Untuk skintone terang ini, gunakan foundation dengan nuansa kuning atau merah muda yang sedikit lebih hangat. Lipstik dengan warna nude lembut, peach, atau pink pastel akan melengkapi penampilan."
         elif predicted_class == "Monk 3":
             description = " Skintone ini memiliki warna kulit yang cerah, tetapi sedikit lebih terang dibandingkan Monk 2. Kulitnya bisa memiliki sentuhan kuning, peach, atau merah muda yang lebih jelas."

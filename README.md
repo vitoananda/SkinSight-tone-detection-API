@@ -37,7 +37,9 @@ Response:
     "status": "Success",
     "message": "Deteksi Skin Tone berhasil",
     "detection_img": "{public_url}",
-    "class" : "{predicted_class}"
+    "class" : "{predicted_class}",
+    "description" : "{description}",
+    "recommendation" : "{recommendation}"
 }
 ```
 200 Jika deteksi Skin Tone berhasil

@@ -1,7 +1,7 @@
 # How to use
 clone repository dengan 
 ```
-  git clone https://github.com/vitoananda/SkinSight-disease-detection-API.git
+  git clone https://github.com/vitoananda/SkinSight-tone-detection-API.git
 ```
 
 Kemudian masukan file keyfile.json yang anda dapatkan dari service account anda yang memiliki role Cloud Storage Admin, Cloud Storage Creator, dan Cloud Storage Viewer
@@ -21,7 +21,7 @@ Kemudian ubah isi file .env anda dengan konfigurasi project firebase dan google 
 
 <hr>
 
-### <b>POST /detect-disease/{uid}</b>
+### <b>POST /detect-tone/{uid}</b>
 Melakukan upload foto kemudian mendapatkan result prediction yang dihasilkan setelah image diproses. 
 
 Request parameter:
